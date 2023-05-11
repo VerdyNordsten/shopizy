@@ -1,0 +1,31 @@
+.product .content {
+  display: flex;
+  margin-bottom: 30px;
+  width: 80%;
+}
+.product .content .scroll::-webkit-scrollbar {
+  display: none;
+}
+.product .detail {
+  margin-left: 20px;
+}
+.product .review {
+  width: 80%;
+}
+.product .review .rating {
+  display: flex;
+}
+
+@media screen and (max-width: 550px) {
+  .product .content {
+    flex-direction: column;
+    padding-bottom: 15vh;
+    width: 70%;
+  }
+  .product .detail {
+    margin-left: 0px;
+  }
+  .product .review .rating {
+    flex-direction: column;
+  }
+}

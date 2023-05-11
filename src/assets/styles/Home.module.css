@@ -1,0 +1,109 @@
+.searchInput {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+}
+.logoOnly {
+  display: none;
+  margin-right: 10px;
+}
+.logoOnly:hover {
+  cursor: pointer;
+}
+.logo {
+  margin-right: 50px;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.filterDiv {
+  display: flex;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #FFF;
+  border: 1px solid #8E8E93;
+}
+.filterDiv:hover {
+  cursor: pointer;
+}
+.cartIcon {
+  margin-left: auto;
+  margin-right: 40px;
+}
+.cartIcon:hover {
+  cursor: pointer;
+}
+.bellIcon {
+  margin-right: 40px;
+}
+.bellIcon:hover {
+  cursor: pointer;
+}
+.mailIcon {
+  margin-right: 25px;
+}
+.mailIcon:hover {
+  cursor: pointer;
+}
+.searchInput:focus {
+  outline: none;
+}
+.signupButton {
+  background-color: #FFF;
+  color: #9B9B9B;
+  padding: 8px 30px;
+  border: 1px solid #9B9B9B;
+  border-radius: 25px;
+}
+.signinButton {
+  background-color: #273AC7;
+  color: #FFF;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+.iconCart {
+  margin-left: auto;
+  margin-right: 40px;
+}
+.iconCart:hover {
+  cursor: pointer;
+}
+.chatMenu {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .chatMenu {
+    display: block;
+  }
+  .logoOnly {
+    display: block;
+  }
+  .logo {
+    display: none;
+  }
+  .filterDiv {
+    display: none;
+  }
+  .cartIcon {
+    margin-right: 20px;
+  }
+  .bellIcon {
+    display: none;
+  }
+  .mailIcon {
+    display: none;
+  }
+  .signupButton {
+    display: none;
+  }
+  .signinButton {
+    margin-left: auto;
+    margin-right: 0px;
+  }
+  .iconCart {
+    display: none;
+  }
+}

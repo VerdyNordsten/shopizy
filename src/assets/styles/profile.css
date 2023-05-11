@@ -1,0 +1,93 @@
+.profile .content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background-color: #e5e5e5;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 50px 0px 50px 50px;
+}
+.profile .content .edit-profile {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 2px solid #9b9b9b;
+  width: 90%;
+  border-radius: 5px;
+}
+.profile .content .edit-profile .form-edit {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.profile .content .edit-profile .form-edit .form-content {
+  margin: 0px;
+}
+
+.profile .content .edit-profile .form-edit .form-content .form-input {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 20px 50px 10px 0px;
+}
+
+.profile .content .edit-profile .form-edit .line {
+  border: 1px solid #9b9b9b;
+  height: 200px;
+  background-color: #9b9b9b;
+  width: 0px;
+  margin: 30px;
+}
+
+.profile .content .edit-profile .form-edit .form-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.profile .content .edit-profile .form-edit .form-select {
+  height: 48px;
+  width: 85px;
+  border: 1px solid #9b9b9b;
+  padding: 12px;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+.profile .content .address {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 2px solid #9b9b9b;
+  width: 90%;
+  border-radius: 5px;
+  min-height: 90vh;
+}
+.profile .content .order {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 2px solid #9b9b9b;
+  width: 90%;
+  border-radius: 5px;
+}
+.profile .content .product {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 2px solid #9b9b9b;
+  width: 90%;
+  border-radius: 5px;
+  margin: 15px 0px
+}
+.profile .content .order .table-order th,
+.profile .content .order .table-order td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.profile .content .product .table-order th,
+.profile .content .product .table-order td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+@media screen and (max-width: 550px) {
+}

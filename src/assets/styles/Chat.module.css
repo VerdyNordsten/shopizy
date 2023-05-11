@@ -1,0 +1,9 @@
+.inputChat {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #8E8E93;
+  border-radius: 25px;
+}
+.inputChat:focus {
+  outline: none;
+}

@@ -1,0 +1,17 @@
+.header  .title{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #273AC7;
+    font-size: 30px;
+    height: 100px;
+    font-weight: bolder;
+    margin-bottom: 20px ;
+}
+.header  .caption{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 30px ;
+    margin-top: 10px;
+    text-align: center;
+}

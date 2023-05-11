@@ -1,0 +1,10 @@
+@media screen and (max-width: 576px) {
+  .modalAddress {
+    max-width: 500px;
+  }
+}
+@media (min-width: 576px) {
+  .modalAddress {
+    max-width: 70% !important;
+  }
+}
